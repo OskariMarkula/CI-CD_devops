@@ -1,6 +1,6 @@
 # CI/CD DevOps -harjoitus
 
-[![Python CI](https://github.com/OWNER/REPO/actions/workflows/ci.yml/badge.svg)](https://github.com/OWNER/REPO/actions/workflows/ci.yml)
+[![Python CI](https://github.com/oskarimarkula/CI-CD_devops/actions/workflows/ci.yml/badge.svg)](https://github.com/oskarimarkula/CI-CD_devops/actions/workflows/ci.yml)
 
 Pieni Python-sovellus, jolle GitHub Actions ajaa linttauksen, testit ja tekee zip-artifactin jokaisesta pushista ja pull requestista.
 
@@ -20,7 +20,7 @@ python app.py
 
 ## Virhe ja korjaus
 
-Muutin testin odotukseksi `add(2, 3) == 6`. Ajo kaatui stepissä **Run unit tests**, ja lokissa näkyi `AssertionError: assert 5 == 6`. Korjasin odotuksen takaisin arvoon `== 5`, minkä jälkeen ajo meni läpi.
+Muutin testin odotukseksi `add(2, 3) == 6`. Ajo kaatui stepissä run unit tests, ja lokissa näkyi `AssertionError: assert 5 == 6`. Korjasin odotuksen takaisin arvoon `== 5`, minkä jälkeen ajo meni läpi.
 
 ## Turvallisuus ja kustannukset
 
