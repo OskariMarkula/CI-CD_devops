@@ -4,7 +4,7 @@ from app import add, classify_temperature, points_to_grade
 
 
 def test_add() -> None:
-    assert add(2, 3) == 6
+    assert add(2, 3) == 5
 
 
 def test_add_negative() -> None:
